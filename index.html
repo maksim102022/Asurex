@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная — ASUREX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Libre+Franklin:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ASUREX</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="works.html">Работы</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero-slider">
+        <div class="slide active">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1920&q=80')"></div>
+            <div class="slide-content">
+                <h6 class="subtitle">Творческий подход</h6>
+                <h1 class="title">Сохраняем ваши лучшие моменты</h1>
+                <a href="about.html" class="hero-btn">Узнать больше</a>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1920&q=80')"></div>
+            <div class="slide-content">
+                <h6 class="subtitle">Стиль и качество</h6>
+                <h1 class="title">Эстетика вашей жизни</h1>
+                <a href="works.html" class="hero-btn">Посмотреть работы</a>
+            </div>
+        </div>
+        <div class="slide video-slide">
+            <video class="slide-video" autoplay muted loop playsinline>
+                <source src="https://www.11-76.com/html5-videos-22/html5-all/1.mp4" type="video/mp4">
+            </video>
+            <div class="slide-content">
+                <h6 class="subtitle">Профессионализм</h6>
+                <h1 class="title">Ваш образ — наша работа</h1>
+                <a href="services.html" class="hero-btn">Наши услуги</a>
+            </div>
+        </div>
+        
+        <div class="slider-controls">
+            <button class="slider-arrow prev">←</button>
+            <div class="slider-dots"></div>
+            <button class="slider-arrow next">→</button>
+        </div>
+        
+        <div class="copyright">© Все права защищены.</div>
+    </section>
+
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-item" data-scroll>
+                    <div class="info-icon">📸</div>
+                    <h3>Фотография</h3>
+                    <p>Профессиональные фотосессии для воплощения любых творческих идей</p>
+                    <a href="services.html" class="info-link">Узнать больше →</a>
+                </div>
+                <div class="info-item" data-scroll>
+                    <div class="info-icon">🎥</div>
+                    <h3>Видеография</h3>
+                    <p>Кинематографичные видео, которые рассказывают вашу уникальную историю</p>
+                    <a href="services.html" class="info-link">Узнать больше →</a>
+                </div>
+                <div class="info-item" data-scroll>
+                    <div class="info-icon">✨</div>
+                    <h3>Креативный дизайн</h3>
+                    <p>Впечатляющие визуальные решения, привлекающие внимание аудитории</p>
+                    <a href="services.html" class="info-link">Узнать больше →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Избранные работы</h2>
+                <p class="section-subtitle">Наши лучшие проекты</p>
+            </div>
+            
+            <div class="featured-grid">
+                <div class="featured-item large" data-scroll>
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&q=80" alt="Работа 1">
+                        <div class="featured-overlay">
+                            <h3>Фотография бренда</h3>
+                            <p>Коммерческая кампания</p>
+                            <a href="works.html" class="view-project">Посмотреть проект →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-item" data-scroll>
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1544717301-9cdcb1f5940f?w=600&q=80" alt="Работа 2">
+                        <div class="featured-overlay">
+                            <h3>Редакционная съемка</h3>
+                            <p>Модный глянец</p>
+                            <a href="works.html" class="view-project">Посмотреть проект →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-item" data-scroll>
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&q=80" alt="Работа 3">
+                        <div class="featured-overlay">
+                            <h3>Видео о продукте</h3>
+                            <p>Презентация технологий</p>
+                            <a href="works.html" class="view-project">Посмотреть проект →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="centered-btn">
+                <a href="works.html" class="primary-btn">Посмотреть все работы</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-scroll>
+                    <div class="stat-number">10</div>
+                    <p class="stat-label">Лет опыта</p>
+                </div>
+                <div class="stat-item" data-scroll>
+                    <div class="stat-number">131</div>
+                    <p class="stat-label">Проектов</p>
+                </div>
+                <div class="stat-item" data-scroll>
+                    <div class="stat-number">8282</div>
+                    <p class="stat-label">Клиентов</p>
+                </div>
+                <div class="stat-item" data-scroll>
+                    <div class="stat-number">504</div>
+                    <p class="stat-label">Наград</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-testimonial">
+        <div class="container">
+            <div class="testimonial-content" data-scroll>
+                <blockquote>
+                    "Работа с этим креативным агентством была сплошным удовольствием. Их внимание к деталям и творческий подход оживили наш проект так, как мы и не могли себе представить."
+                </blockquote>
+                <p class="testimonial-author">— Александр Новиков, креативный директор</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-scroll>
+                <h2>Готовы начать свой проект?</h2>
+                <p>Давайте создадим что-то потрясающее вместе</p>
+                <a href="contact.html" class="primary-btn">Связаться с нами</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>ASUREX</h3>
+                    <p>Креативное агентство, специализирующееся на фотографии, видеосъемке и визуальном дизайне.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="works.html">Работы</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li>БЦ «Вершина», ул. Центральная 10, оф. 402</li>
+                        <li><a href="mailto:info@asurex.com">info@asurex.com</a></li>
+                        <li>+7 (900) 123-45-67</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 ASUREX. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

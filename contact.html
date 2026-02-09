@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — ASUREX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Libre+Franklin:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="page-contact">
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ASUREX</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="works.html">Работы</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contact.html" class="active">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="page-header-bg" style="background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80')"></div>
+        <div class="page-header-content">
+            <h6 class="subtitle">Давайте обсудим ваш проект</h6>
+            <h1 class="page-title">Связаться с нами</h1>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши контакты</h2>
+                <p class="section-subtitle">Будем на связи</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item" data-scroll>
+                        <div class="contact-icon">📍</div>
+                        <h3>Адрес</h3>
+                        <p>БЦ «Вершина», ул. Центральная 10,<br>офис 402</p>
+                    </div>
+                    
+                    <div class="contact-item" data-scroll>
+                        <div class="contact-icon">✉️</div>
+                        <h3>Электронная почта</h3>
+                        <p><a href="mailto:info@asurex.com">info@asurex.com</a><br>
+                        <a href="mailto:hello@asurex.com">hello@asurex.com</a></p>
+                    </div>
+                    
+                    <div class="contact-item" data-scroll>
+                        <div class="contact-icon">📞</div>
+                        <h3>Телефон</h3>
+                        <p>+7 (900) 123-45-67<br></p>
+                    </div>
+                    <div class="contact-item" data-scroll>
+                        <div class="contact-icon">🌐</div>
+                        <h3>Мы в соцсетях</h3>
+                        <div class="contact-social">
+                            <a href="#">Twitter</a>
+                            <a href="#">Facebook</a>
+                            <a href="#">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-scroll>
+                    <h3>Отправить нам сообщение</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Ваше имя *" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Ваш Email *" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Тема сообщения">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Ваше сообщение *" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481198!2d37.6173!3d55.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQ1JzIwLjkiTiAzN8KwMzcnMDIuMyJF!5e0!3m2!1sru!2s!4v1600000000000!5m2!1sru!2s" 
+                width="100%" 
+                height="500" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <section class="business-hours">
+        <div class="container">
+            <div class="hours-content" data-scroll>
+                <h2>График работы</h2>
+                <div class="hours-grid">
+                    <div class="hours-item">
+                        <span class="day">Понедельник — Пятница</span>
+                        <span class="time">09:00 — 18:00</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Суббота</span>
+                        <span class="time">10:00 — 16:00</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Воскресенье</span>
+                        <span class="time">Выходной</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>ASUREX</h3>
+                    <p>Креативное агентство, специализирующееся на фотографии, видеографии и визуальном дизайне.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="works.html">Работы</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li>БЦ «Вершина», ул. Центральная 10, оф. 402</li>
+                        <li><a href="mailto:info@asurex.com">info@asurex.com</a></li>
+                        <li>+7 (900) 123-45-67</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Подписывайтесь</h4>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 ASUREX. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
